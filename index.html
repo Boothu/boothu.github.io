@@ -26,9 +26,10 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I'm a Computer Science student going into my final year who is passionate about building software, exploring
-            AI, and solving real-world problems with technology. I'm currently working on personal projects to expand my
-            skills and prepare for a graduate role in tech.
+            I'm a final-year Computer Science student at Heriot-Watt University with a passion for building software
+            that solves real problems. I've developed projects ranging from web apps to REST APIs, and I enjoy learning
+            new tools by applying them in practice. Right now, I'm focused on expanding my portfolio and preparing for a
+            graduate role in software development after graduation.
         </p>
     </section>
 
@@ -67,7 +68,7 @@
                 <li>Total spending & remaining budget calculation</li>
                 <li>Input validation & error handling</li>
             </ul>
-            <p><strong>Built with:</strong> Java, Spring Boot, JPA, H2, REST</p>
+            <p><strong>Built with:</strong> Java, Spring Boot, JPA, H2</p>
             <div class="carousel">
                 <img src="images/BT PREVIEW 1.png" class="carousel-slide active">
                 <img src="images/BT PREVIEW 2.png" class="carousel-slide">
@@ -81,29 +82,30 @@
             <a href="https://github.com/Boothu/budget-tracker-api" target="_blank">View Code</a>
         </div>
         <div class="project">
-            <h3>Speedrun Dashboard (WIP)</h3>
+            <h3><a href="https://boothu.github.io/speedrun-dashboard/">Speedrun Dashboard</a></h3>
             <p>A data-visualisation web app that fetches and displays speedrun records from the Speedrun.com API.</p>
             <p><strong>Key Features:</strong></p>
             <ul>
-                <li>Game search & category selection</li>
-                <li>Leaderboard with player times</li>
-                <li>Charts of record progression</li>
+                <li>Search games using API</li>
+                <li>View & select categories</li>
+                <li>Top 10 leaderboard with player details & video links</li>
+                <li>Bar chart showing run times</li>
             </ul>
-            <p><strong>Built with:</strong> React, Vite, Tailwind CSS, JavaScript, REST API</p>
-            <!-- <p><strong>Preview:</strong></p>
-            <img src="..." alt="Speedrun Dashboard Preview" id="speeddash-preview"> -->
-            <a href="https://github.com/Boothu/speedrun-dashboard" target="_blank">View Code</a>
+            <p><strong>Built with:</strong> React, Vite, Tailwind CSS, Recharts</p>
+            <p><strong>Preview:</strong></p>
+            <img src="images/SD PREVIEW.png" alt="Speedrun Dashboard Preview" id="speeddash-preview">
+            <a href="https://github.com/Boothu/speedrun-dashboard" target="_blank">View Code</a><br>
+            <a href="https://boothu.github.io/speedrun-dashboard/" target="_blank">Live Site</a>
         </div>
     </section>
 
     <section id="skills">
         <h2>Technical Skills</h2>
         <ul>
-            <li>Programming Languages: Java, Python, Ocaml, JavaScript, C</li>
-            <li>Web Development: HTML, CSS, Node.js</li>
-            <li>Tools: GNS3, PDDL</li>
-            <li>Database Management: SQL</li>
-            <li>Other: Low-level programming (Assembly)</li>
+            <li><strong>Languages:</strong> Java, Python, JavaScript, C, SQL</li>
+            <li><strong>Web Development:</strong> HTML, CSS, React, Vite, Tailwind, Node.js</li>
+            <li><strong>Backend & APIs:</strong> Java Spring Boot, REST API</li>
+            <li><strong>Data & Visualisation:</strong> Recharts, JPA, H2</li>
         </ul>
     </section>
 
@@ -129,10 +131,6 @@
             } else {
                 previewImg.src = lightPreview;
             }
-        }
-
-        if (localStorage.darkMode !== "true" && localStorage.darkMode !== "false") {
-            localStorage.darkMode = "true";
         }
 
         if (localStorage.darkMode === "true") document.body.classList.add("dark");
