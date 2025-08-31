@@ -2,13 +2,13 @@
 
 This is my personal portfolio website showcasing my projects and skills as a Computer Science student at Heriot-Watt University.
 
-# Built with
+## Built with
 
-HTML, CSS
+HTML, CSS, JavaScript
 
-# Site Link
+## Site Link
 
-[https://boothu.github.io/](https://boothu.github.io/)
-# Note
+[boothu.github.io](https://boothu.github.io/)
 
-This site is currently a work in progress.
+## Preview
+<img src="images/PF%20PREVIEW.png" alt="Preview" width="600">
