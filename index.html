@@ -42,7 +42,7 @@
             <a href="https://github.com/Boothu/Boothu.github.io" target="_blank">View Code</a>
         </div>
         <div class="project">
-            <h3><a href="https://boothu.github.io/StudyTrack/" target="_blank">StudyTrack</a></h3>
+            <h3><a href="https://boothu.github.io/studytrack/" target="_blank">StudyTrack</a></h3>
             <p>A productivity web app designed to help students manage their time, tasks, and study goals.</p>
             <p><strong>Key Features:</strong></p>
             <ul>
@@ -54,8 +54,8 @@
             <p><strong>Built with:</strong> HTML, CSS, JavaScript</p>
             <p><strong>Preview:</strong></p>
             <img src="images/ST PREVIEW.png" alt="StudyTrack Preview" id="studytrack-preview">
-            <a href="https://github.com/Boothu/StudyTrack" target="_blank">View Code</a><br>
-            <a href="https://boothu.github.io/StudyTrack/" target="_blank">Live Site</a>
+            <a href="https://github.com/Boothu/studytrack" target="_blank">View Code</a><br>
+            <a href="https://boothu.github.io/studytrack/" target="_blank">Live Site</a>
 
         </div>
         <div class="project">
@@ -82,7 +82,7 @@
             <a href="https://github.com/Boothu/budget-tracker-api" target="_blank">View Code</a>
         </div>
         <div class="project">
-            <h3><a href="https://boothu.github.io/speedrun-dashboard/">Speedrun Dashboard</a></h3>
+            <h3><a href="https://boothu.github.io/speedrun-dashboard/" target="_blank">Speedrun Dashboard</a></h3>
             <p>A data-visualisation web app that fetches and displays speedrun records from the Speedrun.com API.</p>
             <p><strong>Key Features:</strong></p>
             <ul>
@@ -131,6 +131,10 @@
             } else {
                 previewImg.src = lightPreview;
             }
+        }
+
+        if (localStorage.darkMode !== "true" && localStorage.darkMode !== "false") {
+            localStorage.darkMode = "true";
         }
 
         if (localStorage.darkMode === "true") document.body.classList.add("dark");
