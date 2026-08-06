@@ -1,6 +1,6 @@
 # Personal Portfolio Website 
 
-This is my personal portfolio website showcasing my projects and skills as a Computer Science student at Heriot-Watt University.
+This is my personal portfolio website showcasing my projects and skills as a Computer Science graduate from Heriot-Watt University.
 
 ## Built with
 
